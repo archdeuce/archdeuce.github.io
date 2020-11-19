@@ -50,22 +50,18 @@ a {
   border-left: 10px solid transparent;
 }
 
-.border li:nth-child(1):hover {
+.border li:hover {
   border-right: 10px solid #f05d22;
 }
 
-.border li:nth-child(2):hover {
+.border li:nth-child(4n + 2):hover {
   border-right: 10px solid #8bc63e;
 }
 
-.border li:nth-child(3):hover {
+.border li:nth-child(4n + 3):hover {
   border-right: 10px solid #fcba30;
 }
 
-.border li:nth-child(4):hover {
+.border li:nth-child(4n + 4):hover {
   border-right: 10px solid #1ccfc9;
-}
-
-.border li:nth-child(5):hover {
-  border-right: 10px solid #493224;
 }
