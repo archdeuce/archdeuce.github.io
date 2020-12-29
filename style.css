@@ -55,7 +55,9 @@ a {
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
   max-width: calc(100% - 10px);
 }
 
